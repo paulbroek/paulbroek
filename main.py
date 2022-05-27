@@ -3,8 +3,8 @@
 See:
     https://github.com/willmcgugan/willmcgugan
 
-Create README.md by running: 
-    (pip install rich)
+Create README.md by running:
+    # pip install rich
     python main.py
 """
 
@@ -16,12 +16,13 @@ from rich.tree import Tree
 
 console = Console(record=True, width=150)
 
+github_url = "https://github.com/paulbroek/"
 tree = Tree("🤠 [link=https://www.paulbroek.com]Paul Broek", guide_style="bold cyan")
-packages_tree = tree.add("🐍 Packages")
-packages_tree.add("[link=https://github.com/paulbroek/youtube-recommender]YouTube recommender")
-packages_tree.add("[link=https://github.com/paulbroek/imslp-recommender]IMSLP recommender")
-packages_tree.add("[link=https://github.com/paulbroek/gcloud-utils]Google Cloud utility tools")
-packages_tree.add("[link=https://github.com/paulbroek/github-notifier-js]Github notifier")
+packages_tree = tree.add("📦 Packages")
+packages_tree.add(f"[link={github_url}youtube-recommender]YouTube recommender")
+packages_tree.add(f"[link={github_url}imslp-recommender]IMSLP recommender")
+packages_tree.add(f"[link={github_url}gcloud-utils]Google Cloud utility tools")
+packages_tree.add(f"[link={github_url}github-notifier-js]Github notifier")
 full_stack_tree = tree.add("🔧 Full-stack developer")
 pianist_tree = tree.add("🎹 Classical pianist")
 # articles_tree = tree.add("📘 Popular Articles")
@@ -30,7 +31,7 @@ pianist_tree = tree.add("🎹 Classical pianist")
 about = """\
 Originally an econometrist, now mostly a data scientist who loves building tools to boost productivity. 
 My interests lie in NLP, music, sustainability and environmental protection. 
-Follow me on twitter [bold link=https://twitter.com/willmcgugan]@paulbroek[/]
+Follow me on twitter [bold link=https://twitter.com/paulbroek]@paulbroek[/]
 
 Feel free to ask me anything!"""
 
