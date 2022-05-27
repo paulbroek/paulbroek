@@ -22,13 +22,16 @@ packages_tree.add("[link=https://github.com/paulbroek/youtube-recommender]YouTub
 packages_tree.add("[link=https://github.com/paulbroek/imslp-recommender]IMSLP recommender")
 packages_tree.add("[link=https://github.com/paulbroek/gcloud-utils]Google Cloud utility tools")
 packages_tree.add("[link=https://github.com/paulbroek/github-notifier-js]Github notifier")
+full_stack_tree = tree.add("🔧 Full-stack developer")
+pianist_tree = tree.add("🎹 Classical pianist")
 # articles_tree = tree.add("📘 Popular Articles")
 # articles_tree.add("[link=https://towardsdatascience.com/...")
 
 about = """\
 Originally an econometrist, now mostly a data scientist who loves building tools to boost productivity. 
-My interest lie in NLP, music, sustainability and environmental protection. 
+My interests lie in NLP, music, sustainability and environmental protection. 
 
+Follow me on twitter @paulbroek
 Feel free to ask me anything!"""
 
 panel = Panel.fit(
