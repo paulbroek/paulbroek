@@ -26,7 +26,8 @@ packages_tree.add("[link=https://github.com/paulbroek/github-notifier-js]Github 
 # articles_tree.add("[link=https://towardsdatascience.com/...")
 
 about = """\
-Originally an econometrist, now mostly a data scientist who loves building tools to boost productivity. My interest lie in NLP, music, sustainability and environmental protection. 
+Originally an econometrist, now mostly a data scientist who loves building tools to boost productivity. 
+My interest lie in NLP, music, sustainability and environmental protection. 
 
 Feel free to ask me anything!"""
 
