@@ -30,8 +30,8 @@ pianist_tree = tree.add("🎹 Classical pianist")
 about = """\
 Originally an econometrist, now mostly a data scientist who loves building tools to boost productivity. 
 My interests lie in NLP, music, sustainability and environmental protection. 
+Follow me on twitter [bold link=https://twitter.com/willmcgugan]@paulbroek[/]
 
-Follow me on twitter @paulbroek
 Feel free to ask me anything!"""
 
 panel = Panel.fit(
