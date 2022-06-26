@@ -3,6 +3,7 @@ repos:
     hooks:
       - id: build
         name: build
-        entry: python main.py
+        entry: python
+        args: ["main.py"]
         language: python
         types: [python]
