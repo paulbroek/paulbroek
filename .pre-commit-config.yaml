@@ -3,8 +3,10 @@ repos:
     hooks:
       - id: create markdown file
         name: create markdown file
-        entry: python
-        args: ["main.py"]
-        language: python
+        entry: bash -c "python main.py"
+        # entry: python
+        # args: ["main.py"]
+        language: system
+        # language: python
         types: [python]
-        pass_filenames: true
+        pass_filenames: false
