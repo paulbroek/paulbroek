@@ -1,0 +1,8 @@
+repos:
+  - repo: local
+    hooks:
+      - id: build
+        name: build
+        entry: python main.py
+        language: python
+        types: [python]
