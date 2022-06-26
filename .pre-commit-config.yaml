@@ -1,9 +1,10 @@
 repos:
   - repo: local
     hooks:
-      - id: build
-        name: build
+      - id: create markdown file
+        name: create markdown file
         entry: python
         args: ["main.py"]
         language: python
         types: [python]
+        pass_filenames: true
