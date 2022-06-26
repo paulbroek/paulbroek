@@ -11,5 +11,5 @@ build:
 black:
         python -m black .
 ## Run ci part
-.PHONY: ci
-        ci: precommit build black
+# .PHONY: ci
+#         ci: precommit build black
