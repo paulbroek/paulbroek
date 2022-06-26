@@ -4,18 +4,18 @@ repos:
     hooks:
       - id: check-docstring-first
       - id: check-merge-conflict
-      - id: trailing-whitespace
+      # - id: trailing-whitespace
       - id: end-of-file-fixer
       - id: check-yaml
       - id: check-ast
-  - repo: local
-    hooks:
-      - id: create markdown file
-        name: create markdown file
-        entry: bash -c "python main.py"
-        # entry: python
-        # args: ["main.py"]
-        language: system
-        # language: python
-        types: [python]
-        pass_filenames: false
+  # - repo: local
+  #   hooks:
+  #     - id: create markdown file
+  #       name: create markdown file
+  #       entry: bash -c "python main.py"
+  #       # entry: python
+  #       # args: ["main.py"]
+  #       language: system
+  #       # language: python
+  #       types: [python]
+  #       pass_filenames: false

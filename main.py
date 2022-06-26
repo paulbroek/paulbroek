@@ -29,8 +29,8 @@ pianist_tree = tree.add("🎹 Classical pianist")
 # articles_tree.add("[link=https://towardsdatascience.com/...")
 
 about = """\
-Originally an econometrist, now mostly a data scientist who loves building tools to boost productivity. 
-My interests lie in NLP, recommender systems and environmental protection. 
+Originally an econometrist, now mostly a data scientist who loves building tools to boost productivity.
+My interests lie in NLP, recommender systems and environmental protection.
 Follow me on twitter [bold link=https://twitter.com/paulbroek]@paulbroek[/]
 
 Feel free to ask me anything!"""
